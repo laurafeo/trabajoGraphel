@@ -1,0 +1,200 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+header{
+    display: flex;
+    padding: 40px;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 6px solid #1e90ff;
+}
+
+h1{
+    padding-left: 100px;
+    color: #fff;
+    font-size: 32px;
+}
+
+span{
+    color: #1e90ff;
+    font-size: 32px;
+}
+
+nav{
+    padding: 0 100px;
+}
+
+a{
+    padding: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #1e90ff;
+}
+
+.acolor{
+    color: #1e90ff;
+}
+
+.banner {
+    height:30rem;
+    background-image: url(../assets/images/cabecera.jpg);
+    background-size: cover;
+    background-position:  70% 40%; 
+}
+
+.banner h2, .banner p{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.banner h2{
+    font-size: 50px;
+    top: 35%;
+}
+
+.banner p{
+    font-size: 20px;
+    top : 45%;
+}
+
+.boletin {
+    display: flex;
+    background-color: #333;
+    padding: 40px;
+    align-items: center;
+    position: relative; 
+}
+
+.boletin h3{
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 28rem;
+    color: white;
+}
+
+.email {
+    padding: 10px;
+    width: 20rem;
+}
+
+.button {
+    border: solid #333;
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #ff4500;
+    color: white;
+}
+
+.contenedor{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 40px 200px;
+}
+
+.contenedor h4, .contenedor p {
+    padding: 10px;
+}
+
+.contenedor h4 {
+    font-size: 15px;
+}
+
+.center {
+    padding: 0 90px;
+}
+
+article img {
+    width: 8rem;
+}
+
+.contenedor p {
+    font-size: 12px;
+}
+
+footer {
+    background-color: #1e90ff;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+
+/*Nosotros*/
+
+.sectionPrin {
+    display: flex;
+    margin: 30px 100px 70px;
+}
+
+.imagen {
+    width: 50rem;
+    height: 15rem;
+    padding-top: 20px;
+}
+
+.bloque {
+    background-color: #3d3d42;
+    padding: 15px;
+    width: 50rem;
+    color: #fff;
+    margin-top: 30px;
+}
+
+aside {
+    background-color: #3d3d42;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    padding: 35px 15px 15px 15px;
+    margin-left: 180px;
+}
+
+/*Servicios*/
+
+.cuadros article {
+    background-color: #afafaf7a;
+    padding: 30px 20px;
+    margin: 10px 0;
+    width: 46.5rem;
+    border: 1px solid #0000001e;
+}
+
+/*Contacto*/
+
+.sectionPrin input {
+    width: 46.5rem;
+    padding: 10px;
+    margin: 3.7px 0;
+}
+
+.sectionPrin textarea {
+    width: 46.5rem;
+    height: 150px;
+}
+
+.sectionPrin button {
+    width: 46.5rem;
+    padding: 10px;
+    background-color: #ff4500;
+    border: none;
+    color: #fff;
+}
+
+.gps {
+    width: 370px;
+    padding: 15px;
+    margin-left: 245px;
+}
